@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Overpass'; /* 300, 600 */
+	src: url('../fonts/Overpass-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-Regular.ttf'); /* 400 */
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/* Colors */
+	/* Primary */
+	--light-red: hsl(356, 100%, 66%); /* CTA Text */
+	--very-light-red: hsl(355, 100%, 74%); /* CTA Hover Background */
+	--very-dark-blue: hsl(208, 49%, 24%); /* Headings */
+	/* Neutral */
+	--white: hsl(0, 0%, 100%); /* text */
+	--grayish-blue: hsl(240, 2%, 79%); /* footer text */
+	--very-dark-grayish-blue: hsl(207, 13%, 34%); /* body copy */
+	--very-dark-black-blue: hsl(240, 10%, 16%); /*  fotter background */
+
+	/* Gradient */
+	/* Background gradient - Intro/CTA mobile nav */
+	--very-light-red_gradient: hsl(13, 100%, 72%);
+	--light-red_gradient: hsl(353, 100%, 62%);
+	/* Background gradient - body */
+	--very-dark-gray-blue_gradient: hsl(237, 17%, 21%);
+	--very-dark-desaturated-blue_gradient: hsl(237, 23%, 32%);
+}
+
+.drop-down-menu {
+	display: none;
+}
